@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Semáforo</title>
+  </head>
+  <body>
+    <div class="semaforo-box">
+      <div class="bola red-ligado"></div>
+      <div class="bola yellow-desligado"></div>
+      <div class="bola green-desligado"></div>
+    </div>
+    <div class="buttons-box">
+      <button onclick="acendeRed(true)">Vermelho</button>
+      <button onclick="acendeYellow(true)">Amarelo</button>
+      <button onclick="acendeGreen(true)">Verde</button>
+      <button onclick="automatiza()">Automático</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
